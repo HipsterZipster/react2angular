@@ -40,6 +40,8 @@
     "karma-source-map-support": "^1.2.0",
     "ngimport": "^0.7.2",
     "npm-run-all": "^4.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "rollupify": "^0.4.0",
     "tslint": "^5.5.0",
     "typescript": "^2.4.2",
@@ -52,8 +54,10 @@
     "@types/react-dom": "^15.5.1",
     "angular": ">=1.6.5",
     "lodash.frompairs": "^4.0.1",
-    "ngcomponent": "^3.0.2",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "ngcomponent": "^3.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
   }
 }
